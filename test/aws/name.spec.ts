@@ -16,12 +16,12 @@ describe('Name', () => {
       dimension: 'dynamodb:index:WriteCapacityUnits',
       metricRead: 'DynamoDBReadCapacityUtilization',
       metricWrite: 'DynamoDBWriteCapacityUtilization',
-      policyRole: 'serviceDynamoDBAutoscalePolicyTableIndexStageRegion',
-      policyScaleRead: 'serviceTableScalingPolicyReadTableIndexStageRegion',
-      policyScaleWrite: 'serviceTableScalingPolicyWriteTableIndexStageRegion',
-      role: 'serviceDynamoDBAutoscaleRoleTableIndexStageRegion',
-      targetRead: 'serviceAutoScalingTargetReadTableIndexStageRegion',
-      targetWrite: 'serviceAutoScalingTargetWriteTableIndexStageRegion'
+      policyRole: 'serviceStageDynamoDBAutoscalePolicyTableIndexRegion',
+      policyScaleRead: 'serviceStageTableScalingPolicyReadTableIndexRegion',
+      policyScaleWrite: 'serviceStageTableScalingPolicyWriteTableIndexRegion',
+      role: 'serviceStageDynamoDBAutoscaleRoleTableIndexRegion',
+      targetRead: 'serviceStageAutoScalingTargetReadTableIndexRegion',
+      targetWrite: 'serviceStageAutoScalingTargetWriteTableIndexRegion'
     }
 
     using(names, (data, name) => {
@@ -44,12 +44,12 @@ describe('Name', () => {
       dimension: 'dynamodb:table:WriteCapacityUnits',
       metricRead: 'DynamoDBReadCapacityUtilization',
       metricWrite: 'DynamoDBWriteCapacityUtilization',
-      policyRole: 'serviceDynamoDBAutoscalePolicyTableStageRegion',
-      policyScaleRead: 'serviceTableScalingPolicyReadTableStageRegion',
-      policyScaleWrite: 'serviceTableScalingPolicyWriteTableStageRegion',
-      role: 'serviceDynamoDBAutoscaleRoleTableStageRegion',
-      targetRead: 'serviceAutoScalingTargetReadTableStageRegion',
-      targetWrite: 'serviceAutoScalingTargetWriteTableStageRegion'
+      policyRole: 'serviceStageDynamoDBAutoscalePolicyTableRegion',
+      policyScaleRead: 'serviceStageTableScalingPolicyReadTableRegion',
+      policyScaleWrite: 'serviceStageTableScalingPolicyWriteTableRegion',
+      role: 'serviceStageDynamoDBAutoscaleRoleTableRegion',
+      targetRead: 'serviceStageAutoScalingTargetReadTableRegion',
+      targetWrite: 'serviceStageAutoScalingTargetWriteTableRegion'
     }
 
     using(names, (data, name) => {
@@ -72,12 +72,12 @@ describe('Name', () => {
       dimension: 'dynamodb:table:WriteCapacityUnits',
       metricRead: 'DynamoDBReadCapacityUtilization',
       metricWrite: 'DynamoDBWriteCapacityUtilization',
-      policyRole: 'servicewithaverylongnamesonamesaeedda6de5ac2172c15c8d808a2cad991',
-      policyScaleRead: 'servicewithaverylongnamesonamesacb30bc3280aa25bf27765929a56ea8d8',
-      policyScaleWrite: 'servicewithaverylongnamesonamesabf6f2d38b9b294af2c6f8e48cc84ec85',
-      role: 'servicewithaverylongnamesonamesa38d8d82ccef5e775fc294d8a83287850',
-      targetRead: 'servicewithaverylongnamesonamesa141748dffb915b1a67abb08496f24e10',
-      targetWrite: 'servicewithaverylongnamesonamesa299bff1b9d70923193990fde7709db57'
+      policyRole: 'servicewithaverylongnamesonamesa2bcb95d8a6cddb530a6f372bb98fd2fd',
+      policyScaleRead: 'servicewithaverylongnamesonamesab7e8255a41a14be3c63b5ef48b28b0af',
+      policyScaleWrite: 'servicewithaverylongnamesonamesa12af4909663ed694a6a648bace6c061e',
+      role: 'servicewithaverylongnamesonamesa5454ee18bd88bb23869d5be3c6c81382',
+      targetRead: 'servicewithaverylongnamesonamesa3facc5ba65673e200b8ab7381437b1f0',
+      targetWrite: 'servicewithaverylongnamesonamesadf44b7fef31e41b64cccef1255fff1d8'
     }
 
     using(names, (data, name) => {

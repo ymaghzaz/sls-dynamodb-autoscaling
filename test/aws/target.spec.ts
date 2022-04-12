@@ -12,9 +12,9 @@ describe('Target', () => {
 
     const j = t.toJSON()
 
-    expect(j).toHaveProperty('serviceAutoScalingTargetReadMyTableResourceIndexStageRegion')
+    expect(j).toHaveProperty('serviceStageAutoScalingTargetReadMyTableResourceIndexRegion')
 
-    const d = j.serviceAutoScalingTargetReadMyTableResourceIndexStageRegion
+    const d = j.serviceStageAutoScalingTargetReadMyTableResourceIndexRegion
 
     expect(d).toHaveProperty('Properties.MinCapacity', 10)
     expect(d).toHaveProperty('Properties.MaxCapacity', 100)
@@ -29,6 +29,6 @@ describe('Target', () => {
       table: 'MyTableResource'
     }, false, 10, 100)
 
-    expect(t.toJSON()).toHaveProperty('serviceAutoScalingTargetWriteMyTableResourceIndexStageRegion')
+    expect(t.toJSON()).toHaveProperty('serviceStageAutoScalingTargetWriteMyTableResourceIndexRegion')
   })
 })

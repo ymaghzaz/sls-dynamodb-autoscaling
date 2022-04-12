@@ -12,7 +12,7 @@ describe('Role', () => {
 
     const j = r.toJSON()
 
-    expect(j).toHaveProperty('serviceDynamoDBAutoscaleRoleMyTableResourceIndexStageRegion')
+    expect(j).toHaveProperty('serviceStageDynamoDBAutoscaleRoleMyTableResourceIndexRegion')
   })
 
   it('truncates role name if needed', () => {
@@ -26,6 +26,6 @@ describe('Role', () => {
 
     const j = r.toJSON()
 
-    expect(j).toHaveProperty('servicewithalongnametoforcetrunc81d5364e64588e2b095c450722c20a24')
+    expect(j).toHaveProperty('servicewithalongnametoforcetrunc16659a706c56f93a2a04f1d443b29aa2')
   })
 })
