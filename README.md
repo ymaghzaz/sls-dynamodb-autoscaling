@@ -13,17 +13,17 @@ Add the [NPM package](https://www.npmjs.com/package/serverless-dynamodb-autoscal
 
 ```bash
 # Via yarn
-$ yarn add serverless-dynamodb-autoscaling
+$ yarn add sls-dynamodb-autoscaling
 
 # Via npm
-$ npm install serverless-dynamodb-autoscaling
+$ npm install sls-dynamodb-autoscaling
 ```
 
 Add the plugin to your `serverless.yml`:
 
 ```yaml
 plugins:
-  - serverless-dynamodb-autoscaling
+  - sls-dynamodb-autoscaling
 ```
 
 ## Configuration
@@ -134,5 +134,5 @@ $ > yarn build:watch # or "yarn build"
 Use your local build of the package in another project:
 
 ```
-$ > yarn link serverless-dynamodb-autoscaling
+$ > yarn link sls-dynamodb-autoscaling
 ```
